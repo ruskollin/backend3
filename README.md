@@ -1,3 +1,3 @@
 # backend3
 
-[How will I know](https://dashboard.heroku.com/apps/backendforfullstack)
+[How will I know](https://backendforfullstack.herokuapp.com/)
