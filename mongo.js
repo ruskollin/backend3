@@ -1,8 +1,9 @@
 const mongoose = require('mongoose')
 const password = process.argv[2]
 
+//Do not push password to Github
 const url =
-  `mongodb+srv://fullstack:${password}@cluster0.fka4k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
+  'mongodb+srv://fullstack:${password}@cluster0.fka4k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
 
