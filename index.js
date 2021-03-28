@@ -32,7 +32,7 @@ app.get('/info', (request, response) => {
   })
 })
 
-
+//Prior to MongoDB
 // app.get('/info', (request, response) => {
 //     let count = persons.length
 //     let date = new Date()
@@ -136,6 +136,8 @@ app.post('/api/persons', (request, response, next) => {
 //     response.json(person)
 // })
 
+
+//Error Handling
 const errorHandler = (error, request, response, next) => {
   console.error(error.message)
 
